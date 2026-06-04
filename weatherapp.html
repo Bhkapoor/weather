@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/new folder/weather/weatherapp.css">
+</head>
+<body>
+    <div class="container">
+    <input type="text" placeholder="Search here..." id="search">
+    <ul id="suggestions" class="suggestions"></ul>
+    <span class="c" id="c">&#8451</span>
+    <span class="f" id="f">&#8457</span>
+    <div class="body">
+        <h1 id="city"></h1>
+     <div class="date" id="date">
+    </div>
+    <div id="demo"></div>
+    <div id="icon"></div>
+    </div>
+    <h1 id="temp1"></h1>
+    <div class="temp">  
+        Min: <span id="min"></span>
+    Max: <span id="max"></span>
+        </div>
+     <div class="weather">
+    <div > Realfeel
+        <p  id="realfeel"></p>
+    </div>
+    <div>Wind
+        <p  id="wind"></p>
+    </div>
+    <div>Humidity
+        <p id="humidity"></p>
+    </div>
+    <div >Pressure
+        <p id="pressure"></p>
+    </div>
+    </div>
+
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/new folder/weather/weatherapp.js"></script>
+</body>
+</html>
